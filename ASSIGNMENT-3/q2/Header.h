@@ -1,0 +1,1 @@
+int helloworld_add(int ,int);
