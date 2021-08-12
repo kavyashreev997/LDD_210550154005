@@ -1,7 +1,6 @@
 obj-m+=addop.o
 KDIR = /lib/modules/$(shell uname -r)/build/
 all:
-	make -C $(KDIR) M=$(pwd) modules
+	make -C $(KDIR) M=$(PWD) modules
 clean:
-	make -C $(KDIR) M=$(pwd) clean
-
+	make -C $(KDIR) M=$(PWD) clean
